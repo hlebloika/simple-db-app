@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-from sqlalchemy import create_engine, MetaData, Table, Integer, String
+from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
 
 app = Flask(__name__)
 
