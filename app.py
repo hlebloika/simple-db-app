@@ -11,7 +11,7 @@ metadata_obj = MetaData()
 message_table = Table(
     "test",
     metadata_obj,
-    Column("ID", Integer, primary_key=True)
+    Column("ID", Integer, primary_key=True),
     Column("message", String)
 )
 
